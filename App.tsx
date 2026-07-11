@@ -23,3 +23,11 @@ export interface TableVariation {
   colors: { name: string; hex: string; arabicName: string }[];
   specs: { label: string; value: string }[];
 }
+export default function App() {
+  return (
+    <div className="App">
+      <h1>مرحباً بك في متجر Home Decor</h1>
+      {/* هنا يمكنك إضافة مكوناتك الأخرى لاحقاً */}
+    </div>
+  );
+}
